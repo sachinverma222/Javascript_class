@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+  }
+  .container {
+    background-color: rgba(168, 164, 164, 0.603);
+    width: 100vw;
+    height: 100vh;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cal-content {
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    padding: 20px
+  }
+  .output {
+    display: flex;
+    background-color: black;
+    color: #0ef;
+    height: 100px;
+    align-items: center;
+    justify-content: end;
+    overflow: hidden;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    transition: .7s;
+  }
+  .output p {
+    font-size: 25px;
+    float: right;
+  }
+  table {
+    width: 100%;
+  }
+  button {
+    width: 95%;
+    padding: 20px;
+    font-size: 24px;
+    margin: 5px 1px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+  }
+  button:hover {
+    /* font-size: 25px; */
+    background-color: #ccc;
+    box-shadow: 0 0 6px black;
+  }
+  button:active {
+    background-color: #bbb;
+  }
+  .equal {
+    background-color:yellow;
+    /* height: 200px; */
+  }
+  .equal:hover {
+    background-color: #0ef;
+    box-shadow: 0 0 6px #0ef;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+    box-shadow: 0 0 6px red;
+  }
